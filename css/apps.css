@@ -3,4 +3,19 @@
 body,html {
   background: #fefefe url('http://okame.ru/assets/img/bg.png') repeat;
   font: 13px "OpenSans";
+  color: #444;
+  max-width: 750px;
+  margin: 20px auto;
+}
+a {color: #1abc9c;text-decoration: none;}
+a:hover {color: #1c1c1c;}
+header {
+ background: #34495e;
+ padding: 15px;
+}
+h1 {font-size: 20px;}
+section {
+  background: #fff;
+  color: #444;
+  padding: 15px;
 }
