@@ -1,5 +1,5 @@
-@import ('http://okame.ru/assets/fonts/OpenSans/OpenSans.css');
-@import ('http://okame.ru/assets/fontawesome/font-awesome.min.css');
+@import url('http://okame.ru/assets/fonts/OpenSans/OpenSans.css');
+@import url('http://okame.ru/assets/fontawesome/font-awesome.min.css');
 body,html {
   background: #fefefe url('http://okame.ru/assets/img/bg.png') repeat;
   font: 13px "OpenSans";
@@ -12,6 +12,7 @@ a:hover {color: #1c1c1c;}
 header {
  background: #34495e;
  padding: 15px;
+ color: #fff;
 }
 h1 {font-size: 20px;}
 section {
