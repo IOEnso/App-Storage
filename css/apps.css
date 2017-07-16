@@ -1,0 +1,6 @@
+@import ('http://okame.ru/assets/fonts/OpenSans/OpenSans.css');
+@import ('http://okame.ru/assets/fontawesome/font-awesome.min.css');
+body,html {
+  background: #fefefe url('http://okame.ru/assets/img/bg.png') repeat;
+  font: 13px "OpenSans";
+}
