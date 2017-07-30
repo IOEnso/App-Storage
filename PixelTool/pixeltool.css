@@ -1,4 +1,4 @@
-@import url(../../css/fonts/fonts/eurofurence.css);
+@import url('http://okame.ru/assets/fonts/Eurofurence/eurofurence.css');
 body {
     background: #fff url(bg-planets.png) repeat;
     max-width: 535px;
