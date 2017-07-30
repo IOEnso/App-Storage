@@ -1,0 +1,80 @@
+@import url(../../css/fonts/fonts/eurofurence.css);
+body {
+    background: #fff url(bg-planets.png) repeat;
+    max-width: 535px;
+    margin: 10px auto;
+    
+}
+#cvs {border: 1px solid #000;}
+#wrapper {
+    padding-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+#pixeltool {
+    background: #bebebe;
+    margin: 0;
+    padding: 0;
+    width: 535px;
+    height: 455px;
+}
+nav {
+    background: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 0;
+}
+#hover {
+    width: 535px;
+}
+header {
+    content: "";
+    background: url(header.png) no-repeat;
+    height: 92px;
+    width: 535px;
+    box-shadow: 0 4px 0 0 #444;
+}
+#header {
+    content: "";
+    background: url(header-note.png) no-repeat;
+    height: 92px;
+    width: 535px;
+    box-shadow: 0 4px 0 0 #444; 
+}
+#canvas {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+.exported:before {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    content: "Ваш код для экспорта";
+    font-weight: bold;
+    display: block;
+}
+.exported {
+    background: #fff;
+    width: 515px; 
+    padding: 10px; 
+    font-size: 12px; 
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+button {
+    background: #00BFFF;
+    border: 0;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0 0 #06a5da;
+    margin-right: 5px;
+    font-family: "Eurofurence";
+    font-size: 16px;
+}
+button:active {background: #05aee6;box-shadow: 1px 1px 0 0 #06a5da;border:0;}
